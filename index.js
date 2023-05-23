@@ -37,6 +37,7 @@ columns.forEach(gridCol => gridCol.addEventListener('mouseover', changeColorOnHo
 
 const button = document.querySelector('#createGrid'); 
 button.addEventListener('click', () => {
+    if (Boolean(document.querySelector('#height').value) == false || (Boolean(document.querySelector('#width').value) == false)) return;
     if (height !== undefined || width !== undefined) clearGrid(height, width);
     height = document.querySelector('#height').value;
     width = document.querySelector('#width').value;
