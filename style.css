@@ -21,3 +21,11 @@ html, body {
     border: 1px solid black;
     flex: 1;
 }
+
+.basic-ui {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
+    gap: 6px;
+}
