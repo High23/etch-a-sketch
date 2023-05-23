@@ -8,6 +8,15 @@
         <title>Etch a sketch</title>
     </head>
     <body>
+        <div class="basic-ui">
+            <span>Grid size:</span> 
+            <form>
+                <input autocomplete="off" autofocus id="height" placeholder="Height (Limit: 100)" type="number">
+                <input autocomplete="off" autofocus id="width" placeholder="Width (Limit: 100)" type="number">
+            </form>
+            <button id="createGrid" type="submit">Create</button>
+            <form><input type="submit" value="Reset"></form>
+        </div>
         <div id="container"></div>
     </body>
 </html>
