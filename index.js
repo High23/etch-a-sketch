@@ -29,8 +29,8 @@ function clearGrid(height, width){
     }
 }
 
-let height = 100;
-let width = 100;
+let height = 5;
+let width = 5;
 createGrid(height, width);
 let columns = document.querySelectorAll('.grid-col');
 columns.forEach(gridCol => gridCol.addEventListener('mouseover', changeColorOnHover));
